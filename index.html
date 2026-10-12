@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0c0d">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="description" content="影之刃零，2026年10月29日。静候入影。">
+  <title>影之刃零 · 静候入影</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="./assets/scene-009.jpg" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <div class="scenery" aria-hidden="true">
+    <div class="backdrop is-active" data-scene="0"></div>
+    <div class="backdrop" data-scene="1"></div>
+    <div class="backdrop" data-scene="2"></div>
+    <div class="shade"></div>
+    <div class="embers"></div>
+  </div>
+  <div class="page">
+    <header class="header">
+      <a class="brand" href="https://pbz.s-game.com/zh-CN/" target="_blank" rel="noopener noreferrer" aria-label="影之刃零官方网站">
+        <img src="./assets/logo-cn.svg" alt="影之刃零 PHANTOM BLADE ZERO" width="186" height="84">
+        <span class="brand-en" aria-hidden="true">PHANTOM BLADE ZERO</span>
+      </a>
+      <nav aria-label="页面工具">
+        <a class="official" href="https://pbz.s-game.com/zh-CN/" target="_blank" rel="noopener noreferrer">官方网站 <span aria-hidden="true">↗</span></a>
+        <button class="icon-button fullscreen" aria-label="进入全屏" title="进入全屏">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6"/></svg>
+        </button>
+      </nav>
+    </header>
+    <main class="main">
+      <h1>刃未出鞘。<br>江湖已近。</h1>
+      <p class="release-line">距离 <time datetime="2026-10-29">2026 年 10 月 29 日</time><span class="dot">·</span>正式发售</p>
+      <div class="countdown" role="timer" aria-label="距离发售日期的倒计时" aria-live="off">
+        <div class="unit"><span class="number" id="days">--</span><span class="unit-label">天 <small>DAYS</small></span></div><span class="colon" aria-hidden="true">:</span>
+        <div class="unit"><span class="number" id="hours">--</span><span class="unit-label">时 <small>HOURS</small></span></div><span class="colon" aria-hidden="true">:</span>
+        <div class="unit"><span class="number" id="minutes">--</span><span class="unit-label">分 <small>MINS</small></span></div><span class="colon" aria-hidden="true">:</span>
+        <div class="unit"><span class="number" id="seconds">--</span><span class="unit-label">秒 <small>SECS</small></span></div>
+      </div>
+      <div class="launch-date"><span>2026.10.29</span><span class="slash">/</span><span>北京时间 00:00</span></div>
+      <div class="actions">
+        <button class="button calendar">加入日历 <span aria-hidden="true">↗</span></button>
+        <button class="button outline view-mode" aria-pressed="false">纯净观景</button>
+      </div>
+      <p class="timing-note">按发售日零点倒计时，实际解锁时间以官方公告为准。</p>
+      <noscript><p class="timing-note">开启 JavaScript 即可查看实时倒计时。发售日期：2026 年 10 月 29 日。</p></noscript>
+    </main>
+    <aside class="side-note" aria-hidden="true"><span></span>静候 · 入影<span></span></aside>
+    <footer class="footer">
+      <div class="scene-picker" role="group" aria-label="选择官方场景背景">
+        <button class="scene-choice is-selected" data-choice="0" aria-pressed="true"><img src="./assets/scene-009.jpg" width="120" height="68" alt="赤色古刹"><span><b>01</b> 赤色古刹</span></button>
+        <button class="scene-choice" data-choice="1" aria-pressed="false"><img src="./assets/scene-006.jpg" width="120" height="68" alt="雪境孤城"><span><b>02</b> 雪境孤城</span></button>
+        <button class="scene-choice" data-choice="2" aria-pressed="false"><img src="./assets/scene-005.jpg" width="120" height="68" alt="竹林旧径"><span><b>03</b> 竹林旧径</span></button>
+      </div>
+      <p class="credits">个人倒计时 · 非官方网站<br><a href="https://pbz.s-game.com/zh-CN/" target="_blank" rel="noopener noreferrer">背景素材 © S-GAME</a></p>
+    </footer>
+  </div>
+  <button class="exit-view" hidden>退出观景 <span aria-hidden="true">↙</span></button>
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
